@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Insano</title>
+    <link rel="stylesheet" href="mercado.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="mercadofoto.jpg" alt="Imagen insana"> <!-- Aquí se agregará la imagen -->
+        </div>
+        <h1>Supermercado Insano</h1>
+        <p>Wasaaa</p>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#contactos">Contacto</a>
+    </nav>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <button onclick="toggleProductos()">Mostrar/Ocultar Productos</button>
+        <div id="productos-lista" class="oculto">
+          
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul id="servicios-lista"></ul>
+    </section>
+
+    <section id="horarios">
+        <h2>Horarios</h2>
+        <p><strong>Lunes a Viernes:</strong> 8:00 AM - 8:00 PM</p>
+        <p><strong>Sábados:</strong> 9:00 AM - 3:00 PM</p>
+        <p><strong>Domingos:</strong> Cerrado</p>
+    </section>
+
+    <section id="contactos">
+        <h2>Contacto</h2>
+        <div class="contactos">
+            <p><strong>Dirección:</strong> Calle Margarita 777, Ciudad Benito Juárez, País México</p>
+            <p><strong>Teléfono:</strong> + 819 456 7890</p>
+            <p><strong>Correo electrónico:</strong> <a href="insanepilin:contacto@supermercadoxyz.com">contacto@supermercadoinsano.com</a></p>
+            <p><strong>Síguenos en redes sociales:</strong></p>
+            <p><a href="https://www.facebook.com/Supermercadoinsano">Facebook</a> | <a href="https://twitter.com/insanemarket">Twitter</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Insane Market | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="mercado.js"></script>
+</body>
+</html>
